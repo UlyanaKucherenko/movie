@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\_common.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;AAGJ;EACI;EACA","file":"style.a6dae8f7.css","sourceRoot":"..","sourcesContent":["*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody{\r\n    min-height: 100vh;\r\n    background-color: red;\r\n}\r\n"]}
