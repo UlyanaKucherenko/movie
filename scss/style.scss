@@ -1,3 +1,7 @@
-@import "./vars";
-@import "./mixins";
-@import "./common";
+@import "./core/vars";
+@import "./core/mixins";
+@import "./core/common";
+
+@import "./fils/movies";
+@import "./fils/todos";
+@import "./fils/vue-start";
