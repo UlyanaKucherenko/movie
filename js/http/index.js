@@ -1,10 +1,12 @@
 
-const BASE_URL = "https://jsonplaceholder.typicode.com";
+const BASE_URL = "http://www.omdbapi.com/";
+const api_key = '40a13025';
 
-const urls = {
-  posts: `${BASE_URL}/posts`,
+
+const filmsUrls = {
+  search:`${BASE_URL}?apikey=${api_key}`,
 };
 
 
+export {BASE_URL, filmsUrls};
 
-export { BASE_URL, urls};

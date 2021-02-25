@@ -27,5 +27,8 @@
     "h": "^1.0.0",
     "ui": "^0.2.4",
     "uikit": "^3.5.9"
-  }
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
 }

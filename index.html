@@ -3,87 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./scss/style.scss">
     <title>Movies</title>
 </head>
 <body>
-    <div class="uk-container">
-        <h1>DOM lesson</h1>
-        <form id="form">
-            <fieldset class="uk-fieldset">
-
-                <legend class="uk-legend">Legend</legend>
-
-                <div class="uk-margin">
-                    <input id="input" class="uk-input" type="text" placeholder="Title">
-                </div>
-
-                <div class="uk-margin">
-                    <textarea id="textarea" class="uk-textarea" rows="5" placeholder="Text"></textarea>
-                </div>
-                
-                <button type="submit" class="uk-button uk-button-primary">Create</button>
-
-            </fieldset>
-        </form>
-        <ul class="uk-list" id="list"></ul>
-    </div>
-    
-
-    
-<!--
     <header class="header">
         <div class="uk-container header__container">
             <h1 class="header__title">Movies</h1>
             <p class="header__descr">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quaerat!
             </p>
+            <form id="form" class="form" name="search-movie">
+                <div class="form__category-wrap">
+                    <h3 class="form__category-title">Choice Categori:</h3> 
+                    <input type="radio" name="category" id="movie" value="movie" checked>
+                    <label for="movie">movie</label>
+                    
+                    <input type="radio" name="category" id="series" value="series">
+                    <label for="series">series</label>
+                    
+                    <input type="radio" name="category" id="episode" value="episode">
+                    <label for="episode">episode</label>
+                   
+                </div>
+                <div class="form__wrap-search">
+                    <input class="uk-input form__input" type="text" id="movie-name"  name="title" value="" placeholder="Enter name . . .">
+                    <button type="submit" class="uk-button uk-button-danger form__button">Search</button>
+                </div>
+            </form>
         </div>
      </header>
 
-
      <main class="main">
-        <div class=" main__wrapper">
-            <div class="content-left">
-                <form class="form" name="search-movie">
-                    <h2 class="form__title">Search movie:</h2>
-                    <h3>Enter name by movie:</h3>
-                    
-                    <input class="uk-input form__input" type="text" id="movie-name"  name="title" value="" placeholder="Enter name . . .">
-                    <div class="form__category-wrap">
-                        <h3>Choice Categori:</h3> 
-                        <input type="radio" name="category" id="movie" value="movies" checked>
-                        <label for="movie">movie</label>
-                        
-                        <input type="radio" name="category" id="series" value="series">
-                        <label for="series">series</label>
-                        
-                        <input type="radio" name="category" id="episode" value="episode">
-                        <label for="episode">episode</label>
-                       
-                    </div>
-    
-                    <button type="submit" class="uk-button uk-button-danger form__button">Search</button>
-                </form>
-            </div>
-            
-            
-            <div class="block-result">
-                <h2>Result:</h2>   
-            </div>
+        <div class="container"> 
+
+            <section class="cards"> 
+                <ul class="cards__list">  
+                </ul>
+            </section>
+
+            <section class="deteils">
+                <h2>Deteils</h2>
+                <hr>
+            </section>
         </div>
      </main>
-    
+    <footer class="footer">
+        <div class="container">
+            <h2>footer</h2>
+        </div> 
+    </footer>
     
  </div>
-
--->
-
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
 
-    <script src="./js/movie.js"></script>
+    <script src="./js//movie.js"></script>
 </body>
 </html>

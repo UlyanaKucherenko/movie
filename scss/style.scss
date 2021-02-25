@@ -2,6 +2,7 @@
 @import "./core/mixins";
 @import "./core/common";
 
-@import "./fils/movies";
-@import "./fils/todos";
-@import "./fils/vue-start";
+@import "./sections/header.scss";
+@import "./sections/form.scss";
+@import "./sections/cards.scss";
+@import "./sections/footer.scss";

@@ -1,0 +1,40 @@
+
+
+
+.form{
+
+    //width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    @include text(20px,400,white);
+
+    &__category-title{
+        @include text(20px,400,white);
+        margin-bottom: 10px;
+    }
+
+    &__input{
+       margin-bottom: 20px;
+       max-width: 300px;
+       height: 40px;
+    }
+
+    input[type="radio"], label{
+        cursor: pointer;
+    }
+
+    &__category-wrap{
+        margin-bottom: 30px;
+    }
+
+    &__wrap-search{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__button {
+        height: 40px;
+    }
+}
