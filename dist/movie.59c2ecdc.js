@@ -12333,7 +12333,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.filmsUrls = exports.BASE_URL = void 0;
-const BASE_URL = "http://www.omdbapi.com/";
+const BASE_URL = "https://www.omdbapi.com/";
 exports.BASE_URL = BASE_URL;
 const api_key = '40a13025';
 const filmsUrls = {
