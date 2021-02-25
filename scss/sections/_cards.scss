@@ -17,16 +17,15 @@
     
     }
     &__item-list {
-        max-width: 210px;
-        width: 30%;
+        width: 280px;
         display: flex;
         flex-direction: column;
         justify-content: inherit;
         align-items: flex-start;
-        margin-bottom: 20px;
         padding: 0px 0 5px 0;
         background-color: #fff;
         border: 1px solid grey;
+        margin: 0 5px 20px;
 
         &:last-child(-n+3) {
             margin-bottom: 0px;
@@ -36,20 +35,19 @@
 
     &__item-image {
         width: 100%;
-        max-width: 200px;
-        height: 280px;
+        height: 270px;
         margin-bottom: 5px;
     }
 
     &__item-title {
-        @include text(22px,400,white);
+        @include text(22px,400,#000);
         margin: 0 0 10px 0;
         padding: 0 10px;
         
     }
 
     &__item-type {
-        @include text(20px,400,white);
+        @include text(20px,400,#000);
         margin: 0 0 10px 0;
         padding: 0 10px;
     }
